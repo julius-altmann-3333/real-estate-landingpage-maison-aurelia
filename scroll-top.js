@@ -1,0 +1,1 @@
+(function(){ "use strict"; const button=document.querySelector("#luxuryScrollTop");if(!button)return;window.addEventListener("scroll",function(){if(window.scrollY>600)button.classList.add("visible");else button.classList.remove("visible")});button.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"})})})();

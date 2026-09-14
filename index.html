@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison Aurelia | Exceptional Real Estate</title>
+<meta name="description" content="Discover exceptional luxury residences, private estates and architectural properties with Maison Aurelia.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/luxury-real-estate.css">
+</head>
+<body>
+
+<section id="luxuryRealEstateNavigation" class="luxury-navigation-section">
+<nav class="navbar navbar-expand-lg fixed-top luxury-navbar">
+<div class="container-fluid px-lg-5">
+<a href="#luxuryRealEstateHero" class="navbar-brand luxury-logo">MAISON<span>AURELIA</span></a>
+<button class="navbar-toggler luxury-menu-button" type="button" aria-label="Open navigation" data-bs-toggle="offcanvas" data-bs-target="#luxuryRealEstateOffcanvas">
+<span></span><span></span><span></span>
+</button>
+<div class="d-none d-lg-flex luxury-desktop-navigation">
+<a href="#luxuryRealEstateProperty">Residence</a><a href="#luxuryRealEstateFeatures">Details</a><a href="#luxuryRealEstateVideo">Tour</a><a href="#luxuryRealEstateLocation">Location</a><a href="#luxuryRealEstateSimilar">Properties</a><a href="#luxuryRealEstateContact">Private Viewing</a>
+</div>
+<button id="luxuryLanguageButton" class="luxury-language-button d-none d-lg-block" type="button">DE</button>
+</div>
+</nav>
+<div class="offcanvas offcanvas-end luxury-offcanvas" tabindex="-1" id="luxuryRealEstateOffcanvas">
+<div class="offcanvas-header"><div class="luxury-offcanvas-logo">MAISON AURELIA</div><button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
+<div class="offcanvas-body"><div class="luxury-mobile-navigation">
+<a href="#luxuryRealEstateHero">01 — Home</a><a href="#luxuryRealEstateProperty">02 — Residence</a><a href="#luxuryRealEstateFeatures">03 — Details</a><a href="#luxuryRealEstateVideo">04 — Film</a><a href="#luxuryRealEstateLocation">05 — Location</a><a href="#luxuryRealEstateSimilar">06 — Collection</a><a href="#luxuryRealEstateContact">07 — Private Viewing</a>
+<button id="luxuryMobileLanguageButton" class="luxury-mobile-language">Deutsch / English</button>
+</div></div>
+</div>
+</section>
+
+<section id="luxuryRealEstateHero" class="luxury-hero-section">
+<div class="luxury-hero-overlay"></div>
+<div class="container-fluid luxury-hero-content"><div class="row align-items-end min-vh-100">
+<div class="col-lg-8">
+<div class="luxury-eyebrow">PRIVATE RESIDENCE · DRESDEN</div>
+<h1 class="luxury-hero-title">A residence<br><em>without compromise.</em></h1>
+<p class="luxury-hero-description">A rare architectural residence created for those who appreciate privacy, proportion and exceptional design.</p>
+<div class="luxury-hero-actions"><a href="#luxuryRealEstateContact" class="luxury-primary-button">Request Private Viewing <i class="bi bi-arrow-up-right"></i></a><a href="#luxuryRealEstateProperty" class="luxury-outline-button">Explore Residence</a></div>
+</div>
+<div class="col-lg-4"><div class="luxury-hero-price-card"><span>Exclusive Asking Price</span><strong>€ 2,850,000</strong><small>Private sale · Ref. MA-001</small></div></div>
+</div></div>
+</section>
+
+<section id="luxuryRealEstateProperty" class="luxury-property-section">
+<div class="container-fluid px-lg-5"><div class="row g-5 align-items-center">
+<div class="col-lg-5"><div class="luxury-section-number">01 / THE RESIDENCE</div><h2 class="luxury-section-title">Architecture <em>with presence.</em></h2><p class="luxury-large-copy">Hidden behind mature landscaping, this contemporary residence combines generous proportions with refined materials and carefully controlled natural light.</p><p class="luxury-body-copy">Designed around a seamless relationship between interior and exterior spaces, the property offers approximately 420 m² of living space, private gardens, a pool and expansive entertaining areas.</p><a href="#luxuryRealEstateContact" class="luxury-text-link">Arrange a confidential consultation <i class="bi bi-arrow-right"></i></a></div>
+<div class="col-lg-7"><div id="luxuryPropertyGallery" class="luxury-property-gallery"><div class="luxury-gallery-main"><img id="luxuryMainPropertyImage" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85" alt="Luxury modern residence"><div class="luxury-gallery-counter"><span id="luxuryGalleryCurrent">01</span> / <span id="luxuryGalleryTotal">05</span></div></div>
+<div class="luxury-gallery-thumbnails">
+<button class="luxury-gallery-thumbnail active" data-image="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85" data-index="01"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=500&q=75" alt="Residence exterior"></button>
+<button class="luxury-gallery-thumbnail" data-image="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1800&q=85" data-index="02"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=500&q=75" alt="Luxury interior"></button>
+<button class="luxury-gallery-thumbnail" data-image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85" data-index="03"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=75" alt="Luxury house"></button>
+<button class="luxury-gallery-thumbnail" data-image="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1800&q=85" data-index="04"><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=500&q=75" alt="Luxury kitchen"></button>
+<button class="luxury-gallery-thumbnail" data-image="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=85" data-index="05"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=500&q=75" alt="Luxury bedroom"></button>
+</div></div></div>
+</div></div>
+</section>
+
+<section id="luxuryRealEstateFeatures" class="luxury-statistics-section">
+<div class="container-fluid px-lg-5"><div class="luxury-section-heading"><div class="luxury-section-number">02 / PROPERTY PROFILE</div><h2 class="luxury-section-title">The essential <em>details.</em></h2></div>
+<div class="row g-0 luxury-stat-grid">
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-house"></i><span>Living Space</span><strong>420 m²</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-tree"></i><span>Private Grounds</span><strong>1,860 m²</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-door-open"></i><span>Bedrooms</span><strong>5</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-droplet"></i><span>Bathrooms</span><strong>4</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-water"></i><span>Pool</span><strong>14 × 5 m</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-car-front"></i><span>Garage</span><strong>3 Vehicles</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-calendar3"></i><span>Construction</span><strong>2022</strong></div></div>
+<div class="col-6 col-lg-3"><div class="luxury-stat-item"><i class="bi bi-stars"></i><span>Energy Standard</span><strong>A+</strong></div></div>
+</div></div>
+</section>
+
+<section id="luxuryRealEstateAmenities" class="luxury-amenities-section">
+<div class="container-fluid px-lg-5"><div class="row"><div class="col-lg-4"><div class="luxury-section-number">03 / SIGNATURE FEATURES</div><h2 class="luxury-section-title">Designed around <em>your lifestyle.</em></h2></div>
+<div class="col-lg-8"><div class="row g-4">
+<div class="col-md-6"><div class="luxury-feature-card"><i class="bi bi-sun"></i><h3>Panoramic Glazing</h3><p>Floor-to-ceiling windows create exceptional daylight and uninterrupted garden views.</p></div></div>
+<div class="col-md-6"><div class="luxury-feature-card"><i class="bi bi-house-heart"></i><h3>Private Wellness</h3><p>Spa-inspired bathroom spaces, sauna and dedicated wellness area.</p></div></div>
+<div class="col-md-6"><div class="luxury-feature-card"><i class="bi bi-phone"></i><h3>Smart Residence</h3><p>Integrated lighting, climate, security and shading controlled throughout the property.</p></div></div>
+<div class="col-md-6"><div class="luxury-feature-card"><i class="bi bi-lightning-charge"></i><h3>Future Ready</h3><p>Photovoltaic system, energy-efficient systems and EV charging infrastructure.</p></div></div>
+<div class="col-md-6"><div class="luxury-feature-card"><i class="bi bi-lock"></i><h3>Complete Privacy</h3><p>Secure gated access and carefully landscaped private grounds.</p></div></div>
+<div class="col-md-6"><div class="luxury-feature-card"><i class="bi bi-cup-hot"></i><h3>Entertaining Kitchen</h3><p>Bespoke kitchen with premium appliances and generous dining space.</p></div></div>
+</div></div></div></div>
+</section>
+
+<section id="luxuryRealEstateVideo" class="luxury-video-section">
+<div class="luxury-video-wrapper">
+<video class="luxury-property-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85">
+<source src="https://cdn.coverr.co/videos/coverr-a-modern-house-1574/1080p.mp4" type="video/mp4">
+</video>
+<div class="luxury-video-overlay"></div>
+<div class="luxury-video-content"><span>THE FILM</span><h2>Experience the <em>residence.</em></h2><button class="luxury-play-button" type="button" data-bs-toggle="modal" data-bs-target="#luxuryVideoModal"><i class="bi bi-play-fill"></i></button></div>
+</div>
+</section>
+
+<div class="modal fade" id="luxuryVideoModal" tabindex="-1"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content luxury-video-modal"><div class="modal-header"><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Property video" allowfullscreen></iframe></div></div></div></div></div>
+
+<section id="luxuryRealEstateLocation" class="luxury-location-section">
+<div class="container-fluid px-lg-5"><div class="row g-5">
+<div class="col-lg-5"><div class="luxury-section-number">04 / LOCATION</div><h2 class="luxury-section-title">Close to <em>everything.</em></h2><p class="luxury-large-copy">A private setting with effortless access to culture, international connections and everyday essentials.</p>
+<div class="luxury-location-list"><div><span>City Centre</span><strong>12 min</strong></div><div><span>International Airport</span><strong>22 min</strong></div><div><span>International School</span><strong>8 min</strong></div><div><span>Train Station</span><strong>14 min</strong></div></div>
+<address class="luxury-address">Private Residence<br>Loschwitzer Höhe<br>Dresden, Germany</address></div>
+<div class="col-lg-7"><div class="luxury-map-container"><iframe src="https://www.google.com/maps?q=Dresden,Germany&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Property location"></iframe><div class="luxury-map-label"><i class="bi bi-geo-alt-fill"></i> Dresden</div></div></div>
+</div></div>
+</section>
+
+<section id="luxuryRealEstateMarket" class="luxury-market-section">
+<div class="container-fluid px-lg-5"><div class="row align-items-center">
+<div class="col-lg-6"><div class="luxury-section-number">05 / VALUE</div><h2 class="luxury-section-title">Property as a <em>long-term asset.</em></h2><p class="luxury-large-copy">Exceptional real estate combines lifestyle value, scarcity and long-term ownership potential.</p></div>
+<div class="col-lg-6"><div class="luxury-market-panel">
+<div class="luxury-market-row"><span>Property Type</span><strong>Private Residence</strong></div><div class="luxury-market-row"><span>Ownership</span><strong>Freehold</strong></div><div class="luxury-market-row"><span>Energy Class</span><strong>A+</strong></div><div class="luxury-market-row"><span>Availability</span><strong>Private Sale</strong></div>
+<div class="luxury-market-disclaimer">Investment information is illustrative only and should not be considered financial advice.</div>
+</div></div></div></div>
+</section>
+
+<section id="luxuryRealEstateSimilar" class="luxury-similar-section">
+<div class="container-fluid px-lg-5"><div class="d-flex justify-content-between align-items-end mb-5"><div><div class="luxury-section-number">06 / THE COLLECTION</div><h2 class="luxury-section-title mb-0">More exceptional <em>residences.</em></h2></div><a href="#luxuryRealEstateContact" class="luxury-text-link d-none d-md-inline-block">View private collection <i class="bi bi-arrow-right"></i></a></div>
+<div class="luxury-horizontal-slider">
+<article class="luxury-property-card"><div class="luxury-card-image"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80" alt="Luxury villa"><span>PRIVATE SALE</span></div><div class="luxury-card-content"><div><small>BERLIN · GRUNEWALD</small><h3>Villa No. 07</h3><p>510 m² · 6 beds · 5 baths</p></div><strong>€ 4,950,000</strong></div></article>
+<article class="luxury-property-card"><div class="luxury-card-image"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80" alt="Modern residence"><span>NEW</span></div><div class="luxury-card-content"><div><small>MUNICH · BOGENHAUSEN</small><h3>Residence Aureum</h3><p>365 m² · 4 beds · 4 baths</p></div><strong>€ 3,750,000</strong></div></article>
+<article class="luxury-property-card"><div class="luxury-card-image"><img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=900&q=80" alt="Luxury property"><span>EXCLUSIVE</span></div><div class="luxury-card-content"><div><small>HAMBURG · ALSTER</small><h3>Haus Alster</h3><p>440 m² · 5 beds · 4 baths</p></div><strong>€ 5,200,000</strong></div></article>
+<article class="luxury-property-card"><div class="luxury-card-image"><img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80" alt="Luxury villa exterior"><span>PRIVATE SALE</span></div><div class="luxury-card-content"><div><small>FRANKFURT · WESTEND</small><h3>Villa Élan</h3><p>390 m² · 5 beds · 4 baths</p></div><strong>€ 4,250,000</strong></div></article>
+</div></div>
+</section>
+
+<section id="luxuryRealEstateSocial" class="luxury-social-section">
+<div class="container-fluid px-lg-5"><div class="row align-items-center mb-5"><div class="col-lg-6"><div class="luxury-section-number">07 / JOURNAL</div><h2 class="luxury-section-title">Life beyond <em>the address.</em></h2></div><div class="col-lg-6 text-lg-end"><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="luxury-instagram-link"><i class="bi bi-instagram"></i> @maisonaurelia</a></div></div>
+<div class="row g-2 luxury-instagram-grid">
+<div class="col-6 col-md-3"><a href="#" class="luxury-instagram-item"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt="Instagram property"><span><i class="bi bi-instagram"></i></span></a></div>
+<div class="col-6 col-md-3"><a href="#" class="luxury-instagram-item"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt="Instagram interior"><span><i class="bi bi-instagram"></i></span></a></div>
+<div class="col-6 col-md-3"><a href="#" class="luxury-instagram-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80" alt="Instagram villa"><span><i class="bi bi-instagram"></i></span></a></div>
+<div class="col-6 col-md-3"><a href="#" class="luxury-instagram-item"><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=700&q=80" alt="Instagram kitchen"><span><i class="bi bi-instagram"></i></span></a></div>
+</div></div>
+</section>
+
+<section id="luxuryRealEstateContact" class="luxury-contact-section">
+<div class="container"><div class="row g-5">
+<div class="col-lg-5"><div class="luxury-section-number">08 / PRIVATE VIEWING</div><h2 class="luxury-section-title">Let's discuss <em>your next address.</em></h2><p class="luxury-large-copy">Request a confidential viewing or speak privately with one of our property advisors.</p>
+<div class="luxury-contact-details"><div><span>Private Client Office</span><strong>+49 351 000 000</strong></div><div><span>Email</span><strong>private@maisonaurelia.com</strong></div><div><span>Office</span><strong>Dresden · Germany</strong></div></div></div>
+<div class="col-lg-7"><form id="luxuryRealEstateContactForm" class="luxury-contact-form" novalidate><div class="row g-4">
+<div class="col-md-6"><label for="luxuryName">Full Name *</label><input type="text" id="luxuryName" name="name" required placeholder="Your name"><div class="luxury-form-error">Please enter your name.</div></div>
+<div class="col-md-6"><label for="luxuryEmail">Email *</label><input type="email" id="luxuryEmail" name="email" required placeholder="you@example.com"><div class="luxury-form-error">Please enter a valid email address.</div></div>
+<div class="col-md-6"><label for="luxuryPhone">Phone</label><input type="tel" id="luxuryPhone" name="phone" placeholder="+49 ..."></div>
+<div class="col-md-6"><label for="luxuryInterest">I'm interested in</label><select id="luxuryInterest" name="interest"><option value="viewing">Private viewing</option><option value="purchase">Purchasing</option><option value="portfolio">Property portfolio</option><option value="selling">Selling a property</option></select></div>
+<div class="col-12"><label for="luxuryBudget">Approximate Budget</label><select id="luxuryBudget" name="budget"><option>Please select</option><option>€1m – €2m</option><option>€2m – €5m</option><option>€5m – €10m</option><option>€10m+</option></select></div>
+<div class="col-12"><label for="luxuryMessage">Message</label><textarea id="luxuryMessage" name="message" rows="5" placeholder="Tell us how we can assist..."></textarea></div>
+<div class="col-12"><label class="luxury-checkbox"><input type="checkbox" id="luxuryPrivacy" required><span>I agree to the processing of my data according to the privacy policy.</span></label></div>
+<div class="col-12"><button type="submit" class="luxury-primary-button luxury-submit-button">Request Private Viewing <i class="bi bi-arrow-up-right"></i></button><div id="luxuryFormMessage" class="luxury-form-message"></div></div>
+</div></form></div>
+</div></div>
+</section>
+
+<footer id="luxuryRealEstateFooter" class="luxury-footer-section">
+<div class="container-fluid px-lg-5"><div class="row g-5">
+<div class="col-lg-5"><div class="luxury-footer-logo">MAISON<span>AURELIA</span></div><p>Exceptional residences for exceptional lives.</p></div>
+<div class="col-6 col-lg-2"><h4>Explore</h4><a href="#luxuryRealEstateProperty">Residence</a><a href="#luxuryRealEstateFeatures">Details</a><a href="#luxuryRealEstateLocation">Location</a><a href="#luxuryRealEstateSimilar">Collection</a></div>
+<div class="col-6 col-lg-2"><h4>Company</h4><a href="#">About</a><a href="#">Advisory</a><a href="#">Journal</a><a href="#">Contact</a></div>
+<div class="col-lg-3"><h4>Follow</h4><div class="luxury-social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a><a href="#">Pinterest</a></div></div>
+</div><div class="luxury-footer-bottom"><span>© 2026 Maison Aurelia</span><div><a href="#">Privacy</a><a href="#">Imprint</a><a href="#">Cookies</a></div></div></div>
+</footer>
+
+<button id="luxuryScrollTop" class="luxury-scroll-top" aria-label="Scroll to top"><i class="bi bi-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/gallery.js"></script><script src="js/navigation.js"></script><script src="js/contact-form.js"></script><script src="js/language.js"></script><script src="js/scroll-top.js"></script><script src="js/animations.js"></script>
+</body>
+</html>
